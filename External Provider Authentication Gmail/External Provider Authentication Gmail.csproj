@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-External_Provider_Authentication_Gmail-8B19A658-CCF6-4D6E-A47B-734669D66E13</UserSecretsId>
+    <RootNamespace>External_Provider_Authentication_Gmail</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="6.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.2" />
+  </ItemGroup>
+
+</Project>
